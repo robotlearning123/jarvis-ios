@@ -18,9 +18,20 @@
 	<string>APPL</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>JARVIS needs access to your microphone to have voice conversations with you.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>JARVIS uses speech recognition to transcribe your voice commands and questions.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>jarvis</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>
